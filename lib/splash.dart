@@ -1,6 +1,7 @@
 import 'dart:async';
 
 import 'package:catchcountry_flutter_app/home.dart';
+import 'package:catchcountry_flutter_app/initial.dart';
 import 'package:catchcountry_flutter_app/utility/Typografie.dart';
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
@@ -21,7 +22,7 @@ class _SplashScreenState extends State<SplashScreen> {
       Navigator.pushReplacement(
           context,
           Transition(
-              child: const HomeScreen(),
+              child: const InitialScreen(),
               transitionEffect: TransitionEffect.SCALE));
     });
   }

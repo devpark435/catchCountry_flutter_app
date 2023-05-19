@@ -3,6 +3,28 @@ import 'package:flutter/material.dart';
 /// 프로젝트에서 사용하는 모든 텍스트의 규격을 지정하고 관리하는 클래스 ///
 
 class Typografie {
+  Widget splashLarge(String text, Color? color) {
+    return Text(
+      text,
+      style: TextStyle(
+        color: color,
+        fontSize: 70.0,
+        fontWeight: FontWeight.w900,
+      ),
+    );
+  }
+
+  Widget splashMedium(String text, Color? color) {
+    return Text(
+      text,
+      style: TextStyle(
+        color: color,
+        fontSize: 32.0,
+        fontWeight: FontWeight.w700,
+      ),
+    );
+  }
+
   Widget headlineLarge(String text, Color? color) {
     return Text(
       text,
@@ -86,7 +108,7 @@ class Typografie {
       style: TextStyle(
         color: color,
         fontSize: 19.0,
-        fontWeight: FontWeight.w300,
+        fontWeight: FontWeight.w500,
       ),
     );
   }
@@ -107,8 +129,8 @@ class Typografie {
       text,
       style: TextStyle(
         color: color,
-        fontSize: 15.0,
-        fontWeight: FontWeight.w500,
+        fontSize: 25.0,
+        fontWeight: FontWeight.w700,
       ),
     );
   }

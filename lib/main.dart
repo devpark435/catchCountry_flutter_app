@@ -1,4 +1,5 @@
 import 'package:catchcountry_flutter_app/home.dart';
+import 'package:catchcountry_flutter_app/splash.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
         primarySwatch: Colors.blue,
       ),
-      home: const HomeScreen(),
+      home: const SplashScreen(),
     );
   }
 }
